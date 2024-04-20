@@ -1,4 +1,4 @@
-FROM httpd:2.4.46-alpine
+FROM httpd:2.4.56-alpine
 RUN apk update; \
     apk upgrade;
 # Copy apache vhost file to proxy php requests to php-fpm container
